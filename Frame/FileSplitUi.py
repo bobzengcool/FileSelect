@@ -85,9 +85,9 @@ class FileSplit_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "文件拆分工具"))
-        self.label_5.setText(_translate("MainWindow", "拆分后的路径:"))
+        self.label_5.setText(_translate("MainWindow", "需要拆分的文件："))
         self.pushButton_wenjian.setText(_translate("MainWindow", "选择文件..."))
-        self.label_4.setText(_translate("MainWindow", "需要拆分的文件:"))
+        self.label_4.setText(_translate("MainWindow", "拆分后的路径："))
         self.pushButton_lujin.setText(_translate("MainWindow", "选择路径..."))
         self.label_3.setText(_translate("MainWindow", "每个文件行数"))
         self.pushButton_caifen.setText(_translate("MainWindow", "开始拆分"))
