@@ -29,7 +29,7 @@
        <item>
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>拆分后的路径:</string>
+          <string>需要拆分的文件:</string>
          </property>
         </widget>
        </item>
@@ -39,7 +39,7 @@
        <item>
         <widget class="QPushButton" name="pushButton_wenjian">
          <property name="text">
-          <string>选择路径...</string>
+          <string>选择文件...</string>
          </property>
         </widget>
        </item>
@@ -50,7 +50,7 @@
        <item>
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>需要拆分的文件:</string>
+          <string>拆分后的文件路径：</string>
          </property>
         </widget>
        </item>
@@ -60,7 +60,7 @@
        <item>
         <widget class="QPushButton" name="pushButton_lujin">
          <property name="text">
-          <string>选择文件...</string>
+          <string>选择路径...</string>
          </property>
         </widget>
        </item>
@@ -77,6 +77,29 @@
        </item>
        <item>
         <widget class="QLineEdit" name="lineEdit_hangshu"/>
+       </item>
+       <item>
+        <widget class="QComboBox" name="ifHeadLine">
+         <property name="maxCount">
+          <number>10</number>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>16</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>0-没有表头</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1-有表头</string>
+          </property>
+         </item>
+        </widget>
        </item>
        <item>
         <spacer name="horizontalSpacer">
