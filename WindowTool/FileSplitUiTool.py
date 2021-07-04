@@ -40,7 +40,7 @@ class FileSplitQMainWindow(QMainWindow, FileSplit_MainWindow):
         dialog.setFileMode(QFileDialog.AnyFile)
         # filter = "csv(*.csv)"
         # dialog.setFilter(QDir.Files)
-        dialog.setNameFilters(["逗号分隔文件 (*.csv)", "excel文件 (*.xls *.xlsx)"])
+        dialog.setNameFilters(["可以拆分的文件 (*.csv *.xls *.xlsx)"])
         dialog.setDirectory(os.getcwd())
         # dialog.selectNameFilter("csv(*.csv)")
         # dialog.setFilter(filter)
